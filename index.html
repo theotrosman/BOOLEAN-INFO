@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tablas de Verdad + Simplificación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tablas de Verdad + Simplificación</h1>
+
+    <div class="toolbar">
+      <button data-insert="A" title="Variable A">A</button>
+      <button data-insert="B" title="Variable B">B</button>
+      <button data-insert="C" title="Variable C">C</button>
+      <button data-insert="D" title="Variable D">D</button>
+      <button data-insert="(" title="Abrir paréntesis">(</button>
+      <button data-insert=")" title="Cerrar paréntesis">)</button>
+      <button data-insert=" NOT " title="Negación (¬)">¬</button>
+      <button data-insert=" AND " title="Conjunción (∧)">∧</button>
+      <button data-insert=" OR " title="Disyunción (∨)">∨</button>
+      <button data-insert=" XOR " title="Disyunción exclusiva (⊕)">⊕</button>
+      <button data-insert=" NAND " title="NAND (⊼)">⊼</button>
+      <button data-insert=" NOR " title="NOR (⊽)">⊽</button>
+      <button data-insert=" XNOR " title="Equivalencia/XNOR (≡)">≡</button>
+      <button data-insert=" IMPLICA " title="Implicación (→)">→</button>
+      <button data-insert=" EQUIV " title="Doble implicación (↔)">↔</button>
+      <button id="clearBtn" title="Limpiar">🧹</button>
+    </div>
+
+    <div class="expression-box"><span id="expression"></span></div>
+
+    <div class="actions">
+      <button id="btnTable">Generar Tabla</button>
+      <button id="btnSimplify">Simplificar (paso a paso)</button>
+    </div>
+
+    <div id="table-container"></div>
+    <div id="steps"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

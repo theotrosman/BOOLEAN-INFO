@@ -1,0 +1,18 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#0d1117;color:#e6edf3;margin:0;padding:20px}
+.container{max-width:1100px;margin:0 auto}
+h1{margin:8px 0 18px 0}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.toolbar button{background:#1f232a;color:#e6edf3;border:0;border-radius:8px;padding:8px 12px;cursor:pointer;font-size:18px}
+.toolbar button:hover{background:#2a3039}
+.expression-box{background:#161b22;border:1px solid #2a3039;border-radius:8px;min-height:42px;display:flex;align-items:center;padding:10px 12px;font-size:20px}
+.actions{display:flex;gap:10px;margin:14px 0 22px 0}
+.actions button{background:#00bcd4;border:0;border-radius:8px;color:#001018;padding:10px 16px;cursor:pointer;font-weight:600}
+.actions button:hover{filter:brightness(0.95)}
+table{width:100%;border-collapse:collapse;background:#161b22;border:1px solid #2a3039;border-radius:8px;overflow:hidden}
+th,td{border-bottom:1px solid #2a3039;padding:8px 10px;text-align:center}
+tr:last-child td{border-bottom:0}
+td.true{background:#103a19}
+td.false{background:#3a1010}
+#steps{margin-top:18px;background:#0f1319;border:1px solid #2a3039;border-radius:10px;padding:14px;line-height:1.5}
+#steps .step{margin:8px 0;padding:8px 10px;background:#0b0f14;border-radius:8px;border:1px solid #202632}
+#steps .tag{display:inline-block;background:#13273a;color:#7cc0ff;border:1px solid #1b3852;border-radius:999px;font-size:12px;padding:2px 8px;margin-right:6px}
