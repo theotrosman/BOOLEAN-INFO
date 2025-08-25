@@ -29,3 +29,4 @@ Cada simplificación muestra el **paso aplicado subrayado**, imitando cómo se a
 
 **Tabla de verdad generada:**
 
+<img width="1131" height="627" alt="image" src="https://github.com/user-attachments/assets/8bf8f317-7f15-4935-b660-35239b935153" />
